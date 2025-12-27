@@ -1,0 +1,61 @@
+.sec-one{
+    height: 700px;
+}
+.sec-one-cols{
+    height: 700px;
+    position: relative;
+}
+.sec-ft-col{
+    display: flex;
+    align-items: center;
+}
+.text-infos{
+    margin-left: 150px;
+    transform: scale(1.2);
+}
+.text-infos h1{
+    font-size: 55px;
+    font-weight: 700;
+}
+.text-infos p{
+    width: 70%;
+    color: dimgray;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+.text-infos button{
+    padding: 15px 50px;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+.second-col{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.first-profile-bg{
+    width: 65%;
+    display: inline;
+    margin-right: 50px;
+}
+
+.profile{
+    position: absolute;
+}
+.first-profile-bg-shape{
+    position: absolute;
+    z-index: -1;
+}
+.success{
+    position: absolute;
+    background-color: white;
+    padding: 25px 60px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 700;
+    box-shadow: 5px 5px 10px dimgray;
+    left: 350px;
+    top: 430px;
+}
